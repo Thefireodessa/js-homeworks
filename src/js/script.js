@@ -6,9 +6,9 @@ name = "John";
 admin = name;
 alert(admin);
 
-let planetName = "Earth";
-let userName = prompt('Enter your name');
+const planetName = "Earth";
+const userName = prompt('Enter your name');
 alert('Hello, '+userName+'! How are you?');
 
-let result = "10" + 10;
+const result = "10" + 10;
 console.log(result);
