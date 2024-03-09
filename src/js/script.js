@@ -1,6 +1,6 @@
 'use strict';
 
-var operation = prompt("Chose operation (add, sub, mult, div)");
+const operation = prompt("Chose operation (add, sub, mult, div)");
 
 const num1 = parseFloat(prompt("Type your first number"));
 const num2 = parseFloat(prompt("Type your second number"));
@@ -8,7 +8,7 @@ const num2 = parseFloat(prompt("Type your second number"));
 if (isNaN(num1) || isNaN(num2)) {
     alert("Please, type correct number");
 } else {
-    var result;
+    let result;
     switch (operation) {
         case "add":
             result = num1 + num2;
