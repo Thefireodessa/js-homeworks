@@ -6,10 +6,10 @@ const secondNumber = parseFloat(prompt("Type your second number"));
 if (isNaN(firstNumber) || isNaN(secondNumber)) {
     alert("Please, type correct number");
 } else {
-    var addition = firstNumber + secondNumber;
-    var subtraction = firstNumber - secondNumber;
-    var multiplication = firstNumber * secondNumber;
-    var division;
+    const addition = firstNumber + secondNumber;
+    const subtraction = firstNumber - secondNumber;
+    const multiplication = firstNumber * secondNumber;
+    let division;
     if (secondNumber !== 0) {
         division = firstNumber / secondNumber;
     } else {
